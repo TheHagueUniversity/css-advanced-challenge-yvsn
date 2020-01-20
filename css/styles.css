@@ -1,9 +1,15 @@
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
 
 body{
     background-color: #ffffff;
+}
+
+ul{
+  display:grid;
+  grid-template-columns: repeat(8,5fr) 1.5fr 2fr;
+  grid-template-rows: repeat(5,20em) 10em 10em
+}
+
+li{
+	list-style:none;
+	border: 3px solid;
+}
